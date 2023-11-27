@@ -1,9 +1,8 @@
-import React from "react";
 import { Header, Footer } from "./Components";
 import { Home, Product, ProductDetails } from "./Pages";
 import { Route, Routes } from "react-router-dom";
 // import "./style.css";
-import './app.css'
+import './App.css'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,7 +15,7 @@ function App() {
         <Route path="/product" element={<Product />}></Route>
         <Route path="/product/:id" element={<ProductDetails />}></Route>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

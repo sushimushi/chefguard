@@ -1,0 +1,9 @@
+.product-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1048px;
+    margin-inline: auto;
+    width: 90%;
+    gap: 2rem;
+    justify-items: center;
+}

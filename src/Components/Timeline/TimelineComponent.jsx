@@ -4,7 +4,6 @@ import Zoom from 'react-reveal/Zoom';
 function TimelineComponent() {
     return (
     <div>
-      <h2 className='achievement'>ACHIEVEMENTS</h2>
       <div className="container">
           <div className="main-timeline">
 

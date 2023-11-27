@@ -32,9 +32,6 @@ function WhatWeProvide() {
   // </div>
   //   </div>
   <div>
-    <div className="what-we-provide">
-       WHAT WE PROVIDE
-    </div>
     <div className='main-div'>
       <div>
         <img className="image" alt="Element removebg" src="../../public/3739244-removebg-preview-1.png" />

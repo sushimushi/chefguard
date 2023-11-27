@@ -13,7 +13,7 @@ import {
 import { storage } from "../../firebase";
 import { v4 } from "uuid";
 
-function Footer() {
+function Categories() {
     const [imageUpload, setImageUpload] = useState(null);
     const [imageUrls, setImageUrls] = useState([]);
   
@@ -97,4 +97,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Categories
