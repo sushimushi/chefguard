@@ -1,0 +1,22 @@
+.what-we-provide{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #125C21;
+}
+.main-div{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.main-div .image{
+    width: 80%;
+    height: auto;
+    padding: 0px 100px;
+}
+
+.green-check-mark{
+    margin-top: 5px;
+    width: 25px;
+    height: 15px;
+}
